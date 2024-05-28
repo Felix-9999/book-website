@@ -1,0 +1,7 @@
+body {
+  background-image: image-set(
+    "https://st2.depositphotos.com/41964238/42538/i/450/depositphotos_425380758-stock-photo-bookshelves-library-old-books-render.jpg"
+  );
+  background-size: contain;
+  background-attachment: fixed;
+}
