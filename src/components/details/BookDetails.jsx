@@ -14,7 +14,7 @@ const BookDetails = () => {
       <p>{detail?.date}</p>
       {show ? (
         <p onClick={() => setshow(false)} className="show">
-          about the book
+          About the book
         </p>
       ) : (
         <p className="detailP">

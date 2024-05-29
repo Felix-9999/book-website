@@ -72,9 +72,12 @@ const Booklist = () => {
             key={index}
             className="book-item"
             onClick={() => navigateToBook(info)}
+
           >
             <img src={info?.imageUrl} alt={info.bookName} />
-            <h1>{info?.bookName}</h1>
+            <div className="textContainer">
+              <h2>{info?.bookName}</h2>
+            </div>
             <button
               className="likeBook"
               onClick={(e) => {
