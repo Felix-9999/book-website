@@ -29,31 +29,23 @@
 
 .typewriter-container {
   text-align: center;
-  /* Centers the text horizontally */
   padding: 20px;
   margin-top: 20px;
-  /* Adds some space above the typewriter text */
   font-size: 24px;
-  /* Larger text for better readability */
   color: #333;
-  /* Darker text for better contrast */
   font-family: "Courier New", Courier, monospace;
-  /* Typewriter-style font */
 }
 
-/* Additional styling to improve overall look */
 .typewriter-container .Typewriter {
   display: inline-block;
   min-height: 50px;
-  /* Ensures that the component has a minimum height */
   line-height: 1.5;
   border-bottom: 3px solid #666;
-  /* Adds a typewriter-like underline */
   padding-bottom: 10px;
 }
 
-/* You could also add animations or transitions for a smoother typewriter effect */
 @keyframes blink-caret {
+
   from,
   to {
     border-color: transparent;
@@ -70,18 +62,15 @@
 
 .typewriter-container {
   text-align: center;
-  /* Centers the text horizontally */
   padding: 20px;
   margin-top: 20px;
-  /* Adds some space above the typewriter text */
   font-size: 24px;
-  /* Larger text for better readability */
   color: #333;
-  /* Darker text for better contrast */
+
   font-family: "Courier New", Courier, monospace;
 }
 
-/* Additional styling to improve overall look */
+
 .typewriter-container .Typewriter {
   display: inline-block;
   min-height: 50px;
@@ -92,8 +81,9 @@
   font-size: 50px;
 }
 
-/* You could also add animations or transitions for a smoother typewriter effect */
+
 @keyframes blink-caret {
+
   from,
   to {
     border-color: transparent;
@@ -165,6 +155,11 @@
 .likeBook:hover {
   background: #ff9393;
 }
+
+.choose {
+  cursor: pointer;
+}
+
 
 /* Responsive Styles */
 @media screen and (max-width: 600px) {

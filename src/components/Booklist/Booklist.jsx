@@ -82,7 +82,7 @@ const Booklist = () => {
                 toggleFavorite(info);
               }}
             >
-              {favorites.some((fav) => fav.id === info.id) ? "❤️" : "🤍"}
+              {favorites.some((fav) => fav.id === info.id) ? <div className="choose">❤️ </div> : <div className="choose">🤍 </div>}
             </button>
           </div>
         ))}
